@@ -10,8 +10,8 @@ body {
   background-color: #1f2937;
   /* Matches dark header background */
   color: #f9faf8; /* Fixes text contrast issue */
-} 
-/* Shared Centered Container */ 
+}
+/* Shared Centered Container */
 .container {
   margin: 0 auto;
   padding: 0 24px;
@@ -19,6 +19,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
 /* Outer section wrapper spanning full width */
@@ -67,16 +68,14 @@ body {
 
 .hero-info {
   flex: 1;
-  margin-left:50px;
- 
+  margin-left: 50px;
 }
 
-.hero-text{
+.hero-text {
   font-size: 44px;
-
 }
 
-.sign-up{
+.sign-up {
   font-size: 20px;
   padding: 8px 30px;
   background-color: #3f8bf4;
@@ -111,22 +110,51 @@ body {
   object-fit: cover; /* Prevents image distortion */
   border-radius: 8px;
 }
-
-footer {
-  background-color: #1f2937;
-  height: 120px;
-}
-.text {
-  text-align: center;
-  font-weight: 900;
-  font-size: 20px;
-  padding: 20px;
-}
-
 .info {
   background-color: #e5e7eb;
   color: black;
   margin-top: 25px;
   height: 350px;
   width: 100%;
+}
+
+.info .card {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  width: 150px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.img-card {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border: none;
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 120px;
+  width: 120px;
+}
+.info .text {
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 20px;
+}
+.image-text {
+  text-align: center;
 }
