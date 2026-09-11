@@ -1,0 +1,132 @@
+/* Reset & Base Settings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #1f2937;
+  /* Matches dark header background */
+  color: #f9faf8; /* Fixes text contrast issue */
+} 
+/* Shared Centered Container */ 
+.container {
+  margin: 0 auto;
+  padding: 0 24px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Outer section wrapper spanning full width */
+.header-hero {
+  max-width: 1100px;
+  background-color: #1f2937;
+  padding-bottom: 24px;
+  height: 450px;
+  margin-bottom: 50px;
+}
+
+/* Navigation Alignment */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.links ul {
+  display: flex;
+  list-style: none; /* Removes bullet points */
+  gap: 24px; /* Spaces out navigation links horizontally */
+}
+
+.links li {
+  font-size: 18px;
+  color: #e5e7eb;
+  cursor: pointer;
+}
+
+/* Hero Section Alignment */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+  padding-top: 40px;
+}
+
+.hero-info {
+  flex: 1;
+  margin-left:50px;
+ 
+}
+
+.hero-text{
+  font-size: 44px;
+
+}
+
+.sign-up{
+  font-size: 20px;
+  padding: 8px 30px;
+  background-color: #3f8bf4;
+  border: none;
+  border-radius: 10px;
+  color: #ffff;
+}
+
+.hero-info h1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8; /* Fixes black text issue from your screenshot */
+  line-height: 1.1;
+  margin-bottom: 16px;
+}
+
+.hero-info p {
+  font-size: 18px;
+  color: #e5e7eb; /* High-contrast readable secondary text */
+  line-height: 1.5;
+}
+
+/* Image Sizing Fix */
+.image {
+  flex: 1;
+  max-width: 500px;
+}
+
+.image img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover; /* Prevents image distortion */
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 120px;
+}
+.text {
+  text-align: center;
+  font-weight: 900;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.info {
+  background-color: #e5e7eb;
+  color: black;
+  margin-top: 25px;
+  height: 350px;
+  width: 100%;
+}
