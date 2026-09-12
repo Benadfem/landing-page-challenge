@@ -19,7 +19,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  .info,
+  .exalt {
+    height: 350px;
+    width: 100vw;
+  }
 }
 
 /* Outer section wrapper spanning full width */
@@ -68,7 +72,6 @@ body {
 
 .hero-info {
   flex: 1;
-  margin-left: 50px;
 }
 
 .hero-text {
@@ -114,8 +117,6 @@ body {
   background-color: #e5e7eb;
   color: black;
   margin-top: 25px;
-  height: 350px;
-  width: 100%;
 }
 
 .info .card {
@@ -135,6 +136,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin-bottom: 100px;
 }
 .img-card {
   height: 100px;
@@ -144,11 +146,6 @@ body {
   border-radius: 10px;
 }
 
-footer {
-  background-color: #1f2937;
-  height: 120px;
-  width: 120px;
-}
 .info .text {
   text-align: center;
   font-weight: 900;
@@ -157,4 +154,36 @@ footer {
 }
 .image-text {
   text-align: center;
+}
+
+.exalt {
+  background-color: #c2c4c6;
+  color: #333334;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inspire {
+  font-style: italic;
+  width: 50%;
+  padding: 50px;
+  font-size: 1.5rem;
+}
+.info {
+  height: 350px;
+  width: 100vw;
+}
+
+.quote {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 900;
+  font-style: normal;
+}
+
+footer {
+  background-color: #1f2937;
+  height: 120px;
+  width: 120px;
 }
