@@ -19,11 +19,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  .info,
-  .exalt {
-    height: 350px;
-    width: 100vw;
-  }
+}
+.info {
+  height: 350px;
+  width: 100vw;
 }
 
 /* Outer section wrapper spanning full width */
@@ -104,7 +103,7 @@ body {
 /* Image Sizing Fix */
 .image {
   flex: 1;
-  max-width: 500px;
+  max-width: 600px;
 }
 
 .image img {
@@ -157,6 +156,8 @@ body {
 }
 
 .exalt {
+  height: 350px;
+  width: 100vw;
   background-color: #c2c4c6;
   color: #333334;
   display: flex;
@@ -171,7 +172,7 @@ body {
   font-size: 1.5rem;
 }
 .info {
-  height: 350px;
+  height: 400px;
   width: 100vw;
 }
 
@@ -186,4 +187,40 @@ footer {
   background-color: #1f2937;
   height: 120px;
   width: 120px;
+}
+
+/* Call on to action  */
+.action {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 350px;
+  color: black;
+}
+
+.action-blue {
+  width: 50%;
+  background-color: rgb(83, 104, 240);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40%;
+  color: white;
+  padding-left: 80px;
+  padding-right: 80px;
+  border-radius: 10px;
+}
+
+.action-btn{
+  background-color: rgb(83, 104, 240);
+  border: 2px solid white;
+  font-weight: 500;
+}
+
+.bold-call{
+  font-weight: 900;
+  font-size: 25px;
 }
